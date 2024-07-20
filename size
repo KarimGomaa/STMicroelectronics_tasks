@@ -1,0 +1,15 @@
+   Using command [ size exefile-function.o exefile-main.o exefile ] to dsiplay size in decimal
+
+   text	   data	    bss	    dec	    hex	filename
+    151	      8	      0	    159	     9f	exefile-function.o
+    391	      8	      0	    399	    18f	exefile-main.o
+   1869	    624	      8	   2501	    9c5	exefile
+
+
+ Using command [ size -x exefile-function.o exefile-main.o exefile ] to dsiplay size in hexa
+
+   text    data     bss     dec     hex filename
+   0x97     0x8     0x0     159      9f exefile-function.o
+  0x187     0x8     0x0     399     18f exefile-main.o
+  0x74d   0x270     0x8    2501     9c5 exefile
+
