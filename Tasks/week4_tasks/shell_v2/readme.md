@@ -2,30 +2,29 @@
 
 Welcome to My Custom Shell Implementation Task Version 2! This README.md provides an overview of the project, features, usage, and implementation details. This version includes solved bugs and important advice for using the shell effectively.
 
-## Table of Contents
+## 📚 Table of Contents
 
-1. [Project Overview](#-project-overview)
-2. [Libraries Used](#-libraries-used)
-3. [Features](#-features)
-   - [Internal Commands](#-internal-commands)
-   - [External Commands](#-external-commands)
-4. [Installation & Usage](#-installation--usage)
-5. [Internal Commands](#-internal-commands)
-6. [External Commands](#-external-commands)
-7. [Solved Bugs](#-solved-bugs)
-   - [Spaces in `mycp`, `mymv`, `cd`, and External Commands](#-spaces-in-mycp-mymv-cd-and-external-commands)
-    - [External Command Full Paths](#-external-command-full-paths)
-   - [Bug in `echo`](#-bug-in-echo)
-   - [System Calls Return Values](#-system-calls-return-values)
-
-8. [Advice for Using `shell_v2`](#-advice-for-using-shell_v2)
-9. [Unsupported Commands](#-unsupported-commands)
-10. [Manuals](#-manuals)
-11. [Implementation Details](#-implementation-details)
-   - [Functions Used](#-functions-used)
-   - [Main Function Overview](#-main-function-overview)
-   - [Global Variables and Structures](#-global-variables-and-structures)
-12. [Conclusion](#-conclusion)
+1. [Project Overview](#project-overview)
+2. [Libraries Used](#libraries-used)
+3. [Features](#features)
+   - [Internal Commands](#internal-commands)
+   - [External Commands](#external-commands)
+4. [Installation & Usage](#installation--usage)
+5. [Internal Commands](#internal-commands)
+6. [External Commands](#external-commands)
+7. [Solved Bugs](#solved-bugs)
+   - [Spaces in `mycp`, `mymv`, `cd`, and External Commands](#spaces-in-mycp-mymv-cd-and-external-commands)
+   - [External Command Full Paths](#external-command-full-paths)
+   - [Bug in `echo`](#bug-in-echo)
+   - [System Calls Return Values](#system-calls-return-values)
+8. [Advice for Using `shell_v2`](#advice-for-using-shell_v2)
+9. [Unsupported Commands](#unsupported-commands)
+10. [Manuals](#manuals)
+11. [Implementation Details](#implementation-details)
+   - [Functions Used](#functions-used)
+   - [Main Function Overview](#main-function-overview)
+   - [Global Variables and Structures](#global-variables-and-structures)
+12. [Conclusion](#conclusion)
 
 
 ## 🌟 Project Overview
