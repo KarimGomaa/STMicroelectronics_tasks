@@ -102,11 +102,11 @@ We have addressed and resolved the following issues:
 
 - **Spaces in `mycp`, `mymv`, `cd`, and External Commands**: The shell now supports spaces in command paths by using a backslash (`\`) before each space. This fix applies to custom commands like `mycp` and `mymv`, as well as the built-in `cd` command and external commands.
 
-- **System Calls return values**: We have enhanced error checking on system calls to ensure that everything works correctly.
-
 - **External Command Full Paths**: The shell now supports executing external commands using their full file paths, in addition to command names found in the system's PATH environment variable. For example, the shell can now execute `/usr/bin/ls` as well as `ls`.
 
 - **Bug in `echo`**: A bug causing unintended behavior in the `echo` command was identified and fixed.
+
+- **System Calls return values**: We have enhanced error checking on system calls to ensure that everything works correctly.
 
 ## 🔍 Advice for Using `shell_v2`:
 - When using `cp` or `mv` with spaces in paths, these commands may fail. It is recommended to use `mycp` and `mymv` instead, as they now support paths with spaces.
