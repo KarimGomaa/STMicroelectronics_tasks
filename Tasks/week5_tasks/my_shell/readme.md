@@ -286,19 +286,19 @@ Here is a detailed explanation of each function in the `external_commands.c` fil
 
 **Note:** The distinction between these commands helps ensure proper file placement and organization.
 
-###🔄 Redirection and Pipelines
+### 🔄 Redirection and Pipelines
 
 - You can now use redirection without worrying about the order in which it appears in the command line.
 - Multiple pipelines are supported, allowing you to chain commands together.
 - However, please note that pipeline redirection is not supported in this shell.
 
-###⚙️ Internal vs. External Commands
+### ⚙️ Internal vs. External Commands
 
 - The shell handles all corner cases within its internal commands, providing a robust and reliable experience.
 - However, you may encounter issues with certain external commands, such as `echo $variable` or `echo "karim"`, especially when they involve intercommand integration. For these cases, it is recommended to use the internal command instead.
 - **Note:** External commands now handle spaces effectively, just like all other functions in the shell.
 
-##📝 Main Function Overview
+## 📝 Main Function Overview
 
 The `main` function is the entry point of the custom shell program. It contains the main loop that continuously prompts the user for input, processes commands, and executes the appropriate functions.
 
@@ -328,7 +328,7 @@ The `main` function is the entry point of the custom shell program. It contains 
    - The loop continues indefinitely until the user inputs the `exit` command, which breaks the loop and terminates the shell session.
 
 
-##🌐 Global Variables and Structures
+## 🌐 Global Variables and Structures
 
 The shell program uses several global variables and structures to manage state and functionality. Here’s an explanation of each:
 
