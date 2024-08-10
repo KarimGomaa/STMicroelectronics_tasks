@@ -81,7 +81,7 @@ The program makes use of various system calls and functions to implement the com
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/KarimGomaa/STMicroelectronics_tasks
 
 1. **Compile the Shell using Makefile**
    ```bash
