@@ -116,10 +116,15 @@ We are going to deal with First fit that Allocates the first block of sufficient
 ## 
 
 ![1](https://github.com/user-attachments/assets/ab9684e8-63dc-4a15-9253-8ce38a2fdbac)
+##
 ![2](https://github.com/user-attachments/assets/68d88b06-03df-443d-bc5e-63de396849af)
+##
 ![3](https://github.com/user-attachments/assets/083148e4-dce2-4669-8fed-4f5ccf1d783e)
+##
 ![4](https://github.com/user-attachments/assets/c56ac913-7ad8-4eaf-8406-5d16eca94808)
+##
 ![5](https://github.com/user-attachments/assets/88b944eb-391a-4fcd-ae1c-347fe716828b)
+##
 ![6](https://github.com/user-attachments/assets/603c1559-2a69-4e62-8a66-d8a730569d20)
 
 ## ⚙️ `HmmFree`
