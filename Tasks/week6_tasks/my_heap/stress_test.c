@@ -8,8 +8,6 @@
 #define MAX_SIZE 10000
 #define MAX_ITERATIONS 500
 
-extern BlockMeta *first_free_block;
-
 void random_alloc_free_test() {
     srand((unsigned int)time(NULL));
     
