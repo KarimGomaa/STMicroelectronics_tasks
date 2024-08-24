@@ -162,7 +162,7 @@ This approach ensures efficient memory management and reduces fragmentation in t
 #### Second we want to see my_heap with gdb to see the list of free allocs and it's next and prev pointers
 ![testing2](https://github.com/user-attachments/assets/8154c64f-d38a-48e3-94ec-be4d27e736d0)
 
-#### In the middle of the program and we notice that my_heap is preforming will all next and prev pointers are correct
+#### In the middle of the program and we notice that my_heap is preforming well all next and prev pointers are correct
 ![testing3](https://github.com/user-attachments/assets/6cc7c01f-5513-4f0a-b32e-4ec384879e6a)
 
 #### As expected from the stress_test.c at the end it will free all allocs so we have only one free block with the size of the all mallocs and extended program break. 
