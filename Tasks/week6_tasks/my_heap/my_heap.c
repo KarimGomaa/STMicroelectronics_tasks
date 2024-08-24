@@ -15,7 +15,7 @@
 
 static uint8 MY_HEAP[HEAP_SIZE];  /* Simulated heap area */
 static uint8 *program_break = MY_HEAP;  /* Pointer to simulate the program break */
-BlockMeta *first_free_block = NULL;  /* Pointer to the first free block */
+static BlockMeta *first_free_block = NULL;  /* Pointer to the first free block */
 
 
 /*
