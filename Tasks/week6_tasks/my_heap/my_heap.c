@@ -261,7 +261,7 @@ void *HmmAlloc(uint64 size) {
                 }
 
                 /* Adjust the size to account for any remaining space that was merged */
-                if (checking_size_cases < METADATA_SIZE)
+                if (checking_size_cases <= METADATA_SIZE)
                 {
                     size = size + checking_size_cases;
                 }
