@@ -1,0 +1,15 @@
+There is Makefile that provides several options for compiling my_heap in different configurations:
+
+#### make #### Compiles the program along with a stress test, including debugging options for easier troubleshooting and analysis.
+
+#### make release #### Compiles the program with a stress test, but without debugging options, making it suitable for production or deployment.
+
+#### make shared #### Compiles my_heap as a shared library with debugging options enabled, useful for development and debugging purposes.
+
+#### make sharedrelease #### Compiles my_heap as a shared library without debugging options, suitable for use in production environments.
+
+#### make clean #### to remove the compiled files
+
+To use my_heap as the heap implementation instead of the standard one when compiling with a shared library, you can use the following command after compilation:
+
+LD_PRELOAD=`realpath libhmm.so` ls
