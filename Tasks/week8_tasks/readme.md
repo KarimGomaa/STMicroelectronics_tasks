@@ -14,7 +14,6 @@ This program is designed to read and display the partition information from a di
    - [Error Handling](#error-handling)
 5. [📊 Output](#-output)
 6. [⚠️ Important Notes](#-important-notes)
-7. [📃 Contact and Contributing](#-contact-and-contributing)
 
 ## ✨ Features
 
