@@ -90,7 +90,7 @@ By default, the server listens on port 8080.
     - Access it via `http://<server-ip>:8080/script.cgi`.
 
 4. #### See the Example Video in the link below:
-    - [View Video]()
+    - [View Video](https://drive.google.com/file/d/1FO4wPzamExZu_Ow3K95r-n_mJnXJorzw/view?usp=sharing)
 
 ## ⚠️ Error Handling
 - 404 Not Found: If the requested file or directory does not exist.
