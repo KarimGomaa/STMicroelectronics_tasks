@@ -109,8 +109,10 @@ ulimit -c unlimited
 sudo service apport stop ( 3shan ytl3lk f nfs mkan al file) 
 You send Real time signal 1 process terminate with core dump file
 ```
-## See the illustration Video in the link below:
-    - [View Video](https://drive.google.com/file/d/1YA4C6f7KpSSTrAPUZl2BUG02NUEegSnK/view?usp=sharing)
+
+
+🟢 🔴  See the illustration Video:
+[View Video](https://drive.google.com/file/d/1YA4C6f7KpSSTrAPUZl2BUG02NUEegSnK/view?usp=sharing)
 
 ## 🙏 Acknowledgments
 This project was developed in C. Contributions and improvements are welcome! 🚀
