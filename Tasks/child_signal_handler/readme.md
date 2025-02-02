@@ -45,17 +45,17 @@ This C program demonstrates how to handle terminated child processes **without b
 
 ### 🔹 **Step 1: Compile**
 ```sh
-gcc -o non_blocking_reaper non_blocking_reaper.c
+gcc -o no_dead_child no_dead_child.c
 ```
 
 ### 🔹 Step 2: Run
 ```
-./non_blocking_reaper
+./no_dead_child
 ```
 
 ### 🔹 Step 3: Check Running Processes (Optional)
 ```
-ps aux | grep non_blocking_reaper
+ps aux | grep no_dead_child
 ```
 
 ## 🎯 Expected Output
@@ -84,7 +84,7 @@ Child process 12346 exited normally with status 100
 
 
 ## 🟢  Video to illustarate
-[View Video]()
+[View Video](https://drive.google.com/file/d/1yBQ9sI2yUyXDd00lbBVHue1z1zHFgBVL/view?usp=sharing)
 
 ## 🙏 Acknowledgments
 This project was developed in C. Contributions and improvements are welcome! 🚀
