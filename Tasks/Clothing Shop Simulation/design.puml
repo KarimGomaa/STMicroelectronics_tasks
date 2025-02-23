@@ -1,0 +1,35 @@
+@startuml
+title 🛒 Clothing Shop Simulation - UML Diagram
+
+actor Admin as A
+actor Customer as C
+
+' --- Define Processes as Rectangles ---
+rectangle "📦 Inventory Manager" as Inventory
+rectangle "🛒 Shop Process" as Shop
+rectangle "👤 Customer Process" as Customer
+
+' --- Improve Layout by Reordering Components ---
+Inventory -[hidden]-> Shop
+Shop -[hidden]-> Customer
+
+' --- Communication Mechanisms ---
+Customer -[#green]> Shop : 📥 Request Inventory \n(FIFO: /tmp/shop_fifo)
+Shop -[#green]> Customer : 📦 Send Inventory Data \n(FIFO: /tmp/inventory_fifo)
+Customer -[#green]> Shop : 🛍️ Place Order \n(FIFO: /tmp/shop_fifo)
+Shop -[#green]> Customer : ✅ Order Confirmation \n(FIFO: /tmp/confirm_fifo)
+Inventory -[#green]> Shop : 🔄 Inventory Update \n(FIFO: /tmp/inventory_update_fifo)
+
+' --- Shared Memory (SHM) ---
+Shop -[#blue]> Inventory : 📊 Access Inventory Data \n(SHM)
+Inventory -[#blue]> Shop : ✏️ Update Inventory Data \n(SHM)
+
+' --- Semaphore (SEM) ---
+Shop -[#red]> Inventory : 🔒 Lock/Unlock Inventory \n(SEM)
+Inventory -[#red]> Shop : 🔓 Lock/Unlock Inventory \n(SEM)
+
+' --- Actors and Their Actions ---
+A -[#blue]> Inventory : 📋 Update Stock, Add/Remove Items
+C -[#blue]> Customer : 🛍️ Browse & Order Items
+
+@enduml

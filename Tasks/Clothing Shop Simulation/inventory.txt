@@ -1,0 +1,5 @@
+Jeans 5 40.00
+Shoes 8 60.00
+Jacket 8 100.00
+Kimo_Tshirt 2 300.00
+Tshirt 10 50.00
