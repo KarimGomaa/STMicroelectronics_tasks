@@ -137,6 +137,9 @@ mkfifo /tmp/inventory_update_fifo
 - ❌ Semaphore Deadlocks – Ensures locks are properly acquired and released to prevent deadlocks.
 - ❌ File Handling Errors – If `orders.log` or `inventory.txt` cannot be opened, an error is printed.
 
+##  🏪 Clothing shop Simulation uml Desing
+![Image](https://github.com/user-attachments/assets/dd1c3c2b-5ac9-4c66-a983-f6c7d17ec654)
+
 ## 📹 Clothing Shop Simulation Video
 [View Video]()
 
@@ -158,7 +161,4 @@ This Clothing Shop Simulation is a powerful multi-process system that efficientl
 
 ##
 Thank you for exploring My Clothing Shop project simulation. If you have any questions or feedback, feel free to reach out or contribute to the repository. 🔥 Happy coding! 🚀
-
-
-
 
