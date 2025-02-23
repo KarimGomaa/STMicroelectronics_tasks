@@ -141,7 +141,7 @@ mkfifo /tmp/inventory_update_fifo
 ![Image](https://github.com/user-attachments/assets/dd1c3c2b-5ac9-4c66-a983-f6c7d17ec654)
 
 ## 📹 Clothing Shop Simulation Video
-[View Video]()
+[View Video](https://drive.google.com/file/d/1rVKGz6_gsxVpaXsIO74KxILaVOtdek1f/view?usp=sharing)
 
 ## ✨ Future Improvements
 - 🚀 Multi-Customer Support – Enable multiple customers to order simultaneously using threads.
